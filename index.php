@@ -105,7 +105,7 @@
                         "graph.facebook.com/1431685630189116/feed?message=dsdsdsdsds&"+html,
                         function (response) {
                             if (response && !response.error) {
-                                /!* handle the result *!/
+                                /* handle the result */
                                 console.log(response);
                             }
                         }
