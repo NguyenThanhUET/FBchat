@@ -1,4 +1,7 @@
 <?php
-if (isset($_GET)){
-    print_r($_GET);
+
+if ($_GET['hub.verify_token']=='thanhnv'){
+    echo $_GET['hub.challenge'];
+}else{
+    echo 'error';
 }
