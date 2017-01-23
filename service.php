@@ -1,7 +1,7 @@
 <?php
 
-if ($_GET['hub.verify_token']=='thanhnv'){
-    echo $_GET['hub.challenge'];
+if ($_GET['verify_token']=='thanhnv'){
+    echo $_GET['challenge'];
 }else{
     echo 'error';
 }
